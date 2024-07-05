@@ -1,0 +1,186 @@
+.projects {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .title {
+    color: grey;
+    margin-bottom: 50px;
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:20px;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .projectContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    position: relative;
+  }
+  
+  .projectContainer::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: grey;
+    transform: translateX(-50%);
+  }
+  
+  .projectCard, .projectInfo {
+    width: 25%;
+  }
+
+  .projectInfo{
+    text-align: left;
+  }
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .techIcon {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.2s ease;
+  }
+
+  .fareact:hover {
+    color: #61dafb; /* React blue */
+    transform: scale(1.2) !important;
+  }
+  
+  .fanodejs:hover {
+    color: #68a063; /* Node.js green */
+    transform: scale(1.2) !important;
+  }
+  
+  .siexpress:hover {
+    color: white; /* Express black */
+    transform: scale(1.2) !important;
+  }
+  
+  .dimongodb:hover {
+    color: #47A248; /* MongoDB green */
+    transform: scale(1.2) !important;
+  }
+  
+  .fajava:hover {
+    color: #b07219; /* Java orange */
+    transform: scale(1.2) !important;
+  }
+  
+  .rijavascriptfill:hover {
+    color: #f7df1e; /* JavaScript yellow */
+    transform: scale(1.2) !important;
+  }
+  
+  .simysql:hover {
+    color: #00758f; /* MySQL blue */
+    transform: scale(1.2) !important;
+  }
+  
+  .sicnn:hover {
+    color: #cc0000; /* CNN red */
+    transform: scale(1.2) !important;
+  }
+  
+  .fapython:hover {
+    color: #3776ab; /* Python blue */
+    transform: scale(1.2) !important;
+  }
+  
+  .iologofirebase:hover {
+    color: #ffcb2b; /* Firebase yellow */
+    transform: scale(1.2) !important;
+  }
+  
+  .fabootstrap:hover {
+    color: #563d7c; /* Bootstrap purple */
+    transform: scale(1.2) !important;
+  }
+  
+  .iologovercel:hover {
+    color: white !important; /* Vercel black */
+    transform: scale(1.2) !important;
+  }
+  
+  .projectCard {
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .button {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+
+  
+  @media (max-width: 768px) {
+    .grid {
+      gap: 30px;
+    }
+  
+    .projectContainer {
+      flex-direction: column;
+    }
+  
+    .projectContainer::before {
+      display: none;
+    }
+  
+    .projectCard, .projectInfo {
+      width: 80%;
+    }
+  
+    .projectCard {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* ls */

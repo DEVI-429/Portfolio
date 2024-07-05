@@ -1,0 +1,234 @@
+/* Skills.module.css */
+
+.mainContainer {
+    height: 100%;
+    --color: rgba(114, 114, 114, 0.3);
+    background-color: #191a1a;
+    background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
+      linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
+    background-size: 55px 55px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: white;
+    text-align: left;
+  }
+  
+  h3 {
+    color: grey;
+  }
+  
+  .iconContainer {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: white;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .faJava:hover {
+    color: #007396; /* Java color */
+  }
+  
+  .faPython:hover {
+    color: #3776AB; /* Python color */
+  }
+  
+  .tbSql:hover {
+    color: #f29111; /* SQL color */
+  }
+  
+  .riJavascriptFill:hover {
+    color: #F7DF1E; /* JavaScript color */
+  }
+  
+  .faHtml5:hover {
+    color: #E34F26; /* HTML color */
+  }
+  
+  .faCss3Alt:hover {
+    color: #1572B6; /* CSS color */
+  }
+  
+  .faNodeJs:hover {
+    color: #339933; /* Node.js color */
+  }
+  
+  .diMongodb:hover {
+    color: #47A248; /* MongoDB color */
+  }
+  
+  .grMysql:hover {
+    color: #4479A1; /* MySQL color */
+  }
+  
+  .faReact:hover {
+    color: #61DAFB; /* React color */
+  }
+  
+  .siExpress:hover {
+    color: #000000; /* Express color */
+  }
+  
+  .faBootstrap:hover {
+    color: #7952B3; /* Bootstrap color */
+  }
+  
+  .ioLogoFirebase:hover {
+    color: #FFCA28; /* Firebase color */
+  }
+  
+  .faGitAlt:hover {
+    color: #F05032; /* Git color */
+  }
+  
+  .faGithub:hover {
+    color: #181717; /* GitHub color */
+  }
+  
+  .vscVscode:hover {
+    color: #007ACC; /* VS Code color */
+  }
+  
+  .siMysql:hover {
+    color: #4479A1; /* MySQL color */
+  }
+  
+  .siVercel:hover {
+    color: #000000; /* Vercel color */
+  }
+
+  .mainContent{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainContent h3{
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .title{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  
+  @media (max-width: 768px) {
+    .iconContainer {
+      justify-content: center;
+    }
+  
+    .icon {
+      font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .iconContainer {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  
+    .icon {
+      margin: 10px 0;
+    }
+
+    .faJava {
+        color: #007396; /* Java color */
+      }
+      
+      .faPython {
+        color: #3776AB; /* Python color */
+      }
+      
+      .tbSql {
+        color: #f29111; /* SQL color */
+      }
+      
+      .riJavascriptFill {
+        color: #F7DF1E; /* JavaScript color */
+      }
+      
+      .faHtml5 {
+        color: #E34F26; /* HTML color */
+      }
+      
+      .faCss3Alt {
+        color: #1572B6; /* CSS color */
+      }
+      
+      .faNodeJs {
+        color: #339933; /* Node.js color */
+      }
+      
+      .diMongodb{
+        color: #47A248; /* MongoDB color */
+      }
+      
+      .grMysql{
+        color: #4479A1; /* MySQL color */
+      }
+      
+      .faReact{
+        color: #61DAFB; /* React color */
+      }
+      
+      .siExpress {
+        color: white; /* Express color */
+      }
+      
+      .faBootstrap {
+        color: #7952B3; /* Bootstrap color */
+      }
+      
+      .ioLogoFirebase{
+        color: #FFCA28; /* Firebase color */
+      }
+      
+      .faGitAlt {
+        color: #F05032; /* Git color */
+      }
+      
+      .faGithub {
+        color: white; /* GitHub color */
+      }
+      
+      .vscVscode {
+        color: #007ACC; /* VS Code color */
+      }
+      
+      .siMysql {
+        color: #4479A1; /* MySQL color */
+      }
+      
+      .siVercel {
+        color: white; /* Vercel color */
+      }
+  }
+  

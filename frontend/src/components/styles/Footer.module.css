@@ -1,0 +1,118 @@
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .contactSection, .socialSection, .aboutSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #4caf50; /* Green color for headings */
+  }
+  
+  .contactList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .contactList li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #4caf50; /* Green color for icons */
+  }
+  
+  .socialSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .socialIcons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .socialIcon {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    color: #4caf50; /* Green color on hover */
+  }
+  
+  .aboutSection {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footerBottom {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    margin-top: 20px;
+  }
+  
+  .footerBottom p {
+    font-size: 14px;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+      text-align: left;
+    }
+    
+    .contactSection, .socialSection, .aboutSection {
+      flex: 1;
+    }
+  
+    .contactSection {
+      max-width: 300px;
+    }
+  
+    .socialSection {
+      text-align: center;
+    }
+  
+    .aboutSection {
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .aboutSection {
+      margin-top: 20px;
+    }
+  }
+  
