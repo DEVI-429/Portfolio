@@ -11,7 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import CodeIcon from '@mui/icons-material/Code';
-import profile from './images/profile2.avif';
+import profile from './images/profile15.png';
 
 function Home() {
     const [isActive, setIsActive] = useState(false);
@@ -78,7 +78,7 @@ function Home() {
                         </div>
                     </div>
                     <div>
-                        <img src={profile} style={{ height: '300px', width: '250px', borderRadius: '10px' }} />
+                        <img src={profile} style={{ height: '300px', width: '300px', borderRadius: '10px' }} />
                     </div>
                 </div>
             </div>
