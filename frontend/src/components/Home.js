@@ -74,7 +74,7 @@ function Home() {
                         </div>
                         <div className={styles.resume}>
                             <a href='#Contact'><button>Hire Me</button></a>
-                            <a href='https://drive.google.com/file/d/1JQd15jK4YTzR6Las6oNUDNfk2i3v0LoO/view?usp=sharing' download={true} target='_blank'><button>Resume</button></a>
+                            <a href='https://drive.google.com/file/d/1mHC8sgRlQPt-vAv8TgZR1BnrsE3XjaBn/view?usp=sharing' download={true} target='_blank'><button>Resume</button></a>
                         </div>
                     </div>
                     <div>
