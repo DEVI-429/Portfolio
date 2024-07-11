@@ -10,6 +10,8 @@ import { TbSql } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
 import { GrMysql } from "react-icons/gr";
 import { FaCogs } from 'react-icons/fa';
+import { SiPostman } from "react-icons/si";
+import { AiOutlineThunderbolt } from "react-icons/ai";
 
 function Skills() {
   return (
@@ -58,6 +60,8 @@ function Skills() {
             <VscVscode className={styles.icon + ' ' + styles.vscVscode}/>
             <SiMysql className={styles.icon + ' ' + styles.siMysql}/>
             <SiVercel className={styles.icon + ' ' + styles.siVercel}/>
+            <SiPostman className={styles.icon + ' ' + styles.siPostman}/>
+            <AiOutlineThunderbolt className={styles.icon + ' ' + styles.ThunderClient} title='Thunder Client'/>
           </div>
         </div>
       </div>

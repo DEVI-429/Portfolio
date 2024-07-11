@@ -107,6 +107,14 @@
     color: #000000; /* Vercel color */
   }
 
+  .siPostman:hover{
+    color: #FF6C37; /* Postman color */
+  }
+
+  .ThunderClient:hover{
+    color: #FF6C37; /* Thunder Client color */
+  }
+
   .mainContent{
     width: 60%;
     display: flex;
@@ -229,6 +237,14 @@
       
       .siVercel {
         color: white; /* Vercel color */
+      }
+
+      .siPostman{
+        color: #FF6C37; /* Postman color */
+      }
+    
+      .ThunderClient{
+        color: #FF6C37; /* Thunder Client color */
       }
   }
   

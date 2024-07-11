@@ -8,7 +8,7 @@ function Education() {
       institution: 'Indian Institute of Information Technology, Sricity',
       degree: 'Bachelor of Technology in Computer Science',
       duration: '2021 - 2025',
-      grade: 'CGPA: 8.5/10',
+      grade: 'CGPA: 8.45/10',
     },
     {
       institution: 'Narayana Junior College',
