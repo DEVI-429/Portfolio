@@ -17,7 +17,7 @@ const projects = [
     title: "Full Stack Web Developer Intern",
     description: "Build a simple blogging site as a training course using MERN stack and Firebase for authentication.",
     image: WEB,
-    duration:"May 2024 - Present"
+    duration:"May 2024 - July 2024"
   }
 ];
 
